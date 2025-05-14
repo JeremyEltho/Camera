@@ -19,5 +19,5 @@ while True:
     if cv2.waitKey(1) == ord('q'):
         break
 #i guess this is good practice so why not<>
-cap.release()
-cv2.destroyAllWindows()
+cap.release()# lets go of the webcam
+cv2.destroyAllWindows() # closes all cv2 windows
