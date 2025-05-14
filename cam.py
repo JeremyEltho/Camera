@@ -15,7 +15,7 @@ while True:
 
     cv2.imshow("webcam", frame)
 
-    # straight up check the key without masking
+    # checks unicode of the key press to match with the letter q
     if cv2.waitKey(1) == ord('q'):
         break
 
