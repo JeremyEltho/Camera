@@ -1,11 +1,11 @@
 import cv2
-
+#just the import
 cap = cv2.VideoCapture(0)
-
+# naming it cap
 if not cap.isOpened():
     print("camera didn’t open, rip")
     exit()
-
+# check if the cam opened succesfully
 while True:
     ret, frame = cap.read()
 
