@@ -18,6 +18,6 @@ while True:
     # checks unicode of the key press to match with the letter q
     if cv2.waitKey(1) == ord('q'):
         break
-
+#i guess this is good practice so why not<>
 cap.release()
 cv2.destroyAllWindows()
